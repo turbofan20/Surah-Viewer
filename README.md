@@ -88,7 +88,7 @@ There are also useful tooltips next to the cursor, providing information about t
 
 ### [Download Notepad++](https://notepad-plus-plus.org)
 
-### [Download Surah Viewer](https://github.com/turbofan20/Surah-Viewer/raw/main/Surah%20Viewer%20v1.0.zip)
+### [Download Surah Viewer](https://github.com/turbofan20/Surah-Viewer/raw/main/Surah%20Viewer%20v1.2.2.zip)
 
 ---
 # Issues and Bugs ⚠️ 🛠️
