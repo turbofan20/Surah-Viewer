@@ -1,5 +1,4 @@
 # Surah Viewer - Memorize the Quran with Ease 📗 ✔️
-<a href="url"><img src="https://user-images.githubusercontent.com/55412194/175768327-50d100f7-525d-4999-bba4-b0e7716a6c02.png" align="left" height="450" width="550" ></a>
 
 Surah Viewer is a convenient and user-friendly program that allows you to set custom hotkeys on your keyboard which when pressed, will jump to a certain verse or a certain point in a verse in a Surah in a Youtube video. The word "Surah" in Arabic means a chapter in the Quran. There are exactly 114 Surahs in the Quran, so this tool is likely to be of great benefit throughout Hifz (lit. Guardianship of the Quran).
 
@@ -51,7 +50,8 @@ https://www.youtube.com/watch?v=4k2_Ukgg_-Y
 
 [^1]: See Issue 8
 [^2]: See Issue 4
-[^3]: See Issue 13
+[^3]: See Issue 15
+[^4]: See Issue 14
 ------------------------------------------------------
 # Features ⚡ ✨
 - Program is written in AutoHotKey - Intuitive and friendly UI
@@ -62,7 +62,7 @@ https://www.youtube.com/watch?v=4k2_Ukgg_-Y
 - Precision - Ensure that you are exactly at the location of the Surah where you would like to be.[^3] You can move 1 pixel at a time using the WASD/AD keys.
 - When saving dynamic hotkeys, a discernible sound is made to confirm that a save is done. This sound can be easily turned off, whilst still allowing the user to save custom locations
 - Freely accessible source code - change the program to your liking and contribute to the source code such as by fixing bugs
-- Generated macros are saved on the desktop so that they can be easily opened an closed at anytime. There is no need to make the macro again each time you want to listen to a Surah
+- Generated macros are saved on the desktop so that they can be easily opened an closed at anytime[^4]. There is no need to make the macro again each time you want to listen to a Surah
 - And more
 
 ------------------------------------------------------
@@ -115,6 +115,27 @@ Alhamdulillah I am impressed at what was produced within 10 days despite knowing
 
 12) There is no way for the program to ensure that coordinates are entered in the form of [x,y]. This means that a user could enter any string (except blanks) and still generate the hotkey script (it would be unusable however, as AHK would return a syntax error).
 
-13) Videos that play large Surahs all in one go are exceptionally long (>1 hour). This means that a change in one pixel on the progress bar could correspond to a few seconds being jumped through the video. This is in comparison to relatively short Surahs that are only a few/tens of verses long, where a difference in one pixel would result in a change of just a second or less. This makes the program useless for long videos (not long Surahs, as the video could just be broken up into smaller chunks via private reupload (or via VLC/Media Player in the near future InshaAllah) and separate hotkeys could be made for those shorter videos).
+13) Warning messages from Notepad++ are likely to disturb the (primitive) append function of the script. The "append function" essentially copies a whole block of text from the clipboard and pastes it into the text file along with extra automated inputs while it is open. If the text file becomes inactive for whatever reason (in this case by warning messages), the "append" function becomes interrupted and unexpected results are likely to occur. For this reason, it is best that the user manually closes all Notepad++ files and exits the text editor before running Surah Viewer.
 
-14) Warning messages from Notepad++ are likely to disturb the (primitive) append function of the script. The "append function" essentially copies a whole block of text from the clipboard and pastes it into the text file along with extra automated inputs while it is open. If the text file becomes inactive for whatever reason (in this case by warning messages), the "append" function becomes interrupted and unexpected results are likely to occur. For this reason, it is best that the user manually closes all Notepad++ files and exits the text editor before running Surah Viewer.
+14) Currently, generated AHK files can only be sent to the desktop. Hopefully in the future the user can choose where to store their file.
+
+15) Videos that play large Surahs all in one go are exceptionally long (>1 hour). This means that a change in one pixel on the progress bar could correspond to a few seconds being jumped through the video. This is in comparison to relatively short Surahs that are only a few/tens of verses long, where a difference in one pixel would result in a change of just a second or less. This makes the program useless for long videos (not long Surahs, as the video could just be broken up into smaller chunks via private reupload (or via VLC/Media Player in the near future InshaAllah) and separate hotkeys could be made for those shorter videos). 
+### If possible, it would be excellent if the specific frames (of when the verse starts or via dynamic hotkeys) would be used instead of screen coordinates, as it would eliminate issues: 5, 8, 12, and 15, all in one go.
+
+# Summary ℹ️↙️
+
+Surah Viewer is a user friendly program that allows you to easily memorize verses of the Quran by letting you jump from one verse to another at the press of a button and more. It is totally free.
+
+I initially got the motivation to make this application when I tried to memorize the Quran on Youtube a few months ago, but wasn't able to do so that well. This was because I couldn't easily go from one verse to another and jump to certain parts within large verses. I was using my mouse to repeatedly click at the part that I would like to listen to, but this had numerous problems. 
+
+The three major ones being that I had to have absolute precision and accuracy as to where I positioned the cursor, I had to make sure not to accidentally move the cursor as I clicked the mouse, and I could not save cursor locations on the scrollbar. This meant that I had to go back and forth if I wanted to go from one verse or section to another, going through the whole process of moving the mouse and getting to the specific point on the scrollbar with precision every single time. If I had to do this for 114 Chapters, this would get really irritating and time consuming. To remedy this, I tried looking for an extension on the Chrome webstore to see if there was one that would allow me to set custom timestamps and click them. Unfortunately, there weren't any that would suit my needs.
+
+Alhamdulillah, in just under 2 weeks Surah Viewer was created, which allowed me to customise how I read the Quran (along with added programming experience and logic development). I'm not very good at programming, but AHK really is a beast of a language. As long as you have common sense and/or logic, you can make serious programs with AHK that otherwise wouldn't be possible with other programming languages (unless you dedicate a lot of time to them).
+
+While initially I did run into a lot of trouble with using AHK (mainly syntax errors), I am glad that Surah Viewer is working.
+
+Citation: Some code from the program was used from mikeyww and phil294 - thanks to both of them.
+
+## Iجَزاكَ اللهُ خَـيْر  for using Surah Viewer and may Allah grant you huge rewards for striving to memorize the Quran.
+
+— turbofan20
