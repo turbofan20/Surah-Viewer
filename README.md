@@ -105,7 +105,9 @@ Alhamdulillah I am impressed at what was produced within 10 days despite knowing
 
 5)	If progress bar changes size (for whatever reason), all hotkeys become useless (one potential workaround this would be to use a local video player such as VLC, however see issue # 6).
 
-6)	The user is forced to enter a Youtube URL. This will hopefully be changed sometime in the future so that the user is given the option to enter a URL (such as if they want to play the video locally on VLC for example instead of being fully restricted to Youtube).
+6)	~~The user is forced to enter a Youtube URL. This will hopefully be changed sometime in the future so that the user is given the option to enter a URL (such as if they want to play the video locally on VLC for example instead of being fully restricted to Youtube).~~
+
+	> 6) Fixed in version 1.2.2
 
 7)	The user has to manually input the number of verses of a given Surah, instead of the program automatically figuring out how many verses are in that Surah (would require a dictionary in the program so it's easier just for the user to input the number of verses themselves).
 
