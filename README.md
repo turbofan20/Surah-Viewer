@@ -78,7 +78,7 @@ There are also useful tooltips next to the cursor, providing information about t
 ------------------------------------------------------
 # Download ⬇️
 
-### [Download Surah Viewer](https://github.com/turbofan20/Surah-Viewer/raw/main/Surah%20Viewer.zip)
+### [Download Surah Viewer](https://github.com/turbofan20/Surah-Viewer/raw/main/Surah%20Viewer%20v1.0.zip)
 
 ---
 # Issues and Bugs ⚠️ 🛠️
