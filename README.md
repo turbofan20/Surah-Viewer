@@ -1,5 +1,9 @@
 # Surah Viewer - Memorize the Quran with Ease 📗 ✔️
 
+<a href="url"><img src="https://user-images.githubusercontent.com/55412194/175779248-a9d7477f-0f50-4b4e-81e7-1938ffabb529.png" align="left" height="350" width="1200" ></a>
+ 
+---
+
 Surah Viewer is a convenient and user-friendly program that allows you to set custom hotkeys on your keyboard which when pressed, will jump to a certain verse or a certain point in a verse in a Surah in a Youtube video. The word "Surah" in Arabic means a chapter in the Quran. There are exactly 114 Surahs in the Quran, so this tool is likely to be of great benefit throughout Hifz (lit. Guardianship of the Quran).
 
 The program works by using pixel coordinates to go to the corresponding location of a verse or a point in the Youtube video, via the progress bar upon the user pressing a hotkey.
