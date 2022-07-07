@@ -1,6 +1,6 @@
 # Surah Viewer - Memorize the Quran with Ease 📗 ✔️
 
-<a href="url"><img src="https://raw.githubusercontent.com/turbofan20/Surah-Viewer/main/Logo%20for%20Surah%20Viewer.png" align="left" height="340" width="1200" ></a>
+<a href="url"><img src="https://github.com/turbofan20/Surah-Viewer/blob/main/Logo%20for%20Surah%20Viewer1%20(2).png" align="left" height="340" width="1200" ></a>
  
 ---
 
