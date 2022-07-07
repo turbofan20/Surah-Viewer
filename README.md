@@ -93,8 +93,6 @@ There are also useful tooltips next to the cursor, providing information about t
 ---
 # Issues and Bugs ⚠️ 🛠️
 
-Alhamdulillah I am impressed at what was produced within 10 days despite knowing nothing about AutoHotKey less than 2 weeks ago. In every program, however, there are bound to be some bugs and issues.
-
 1)	There is currently no button to suspend all hotkeys temporarily (Ctrl + 1 exits the script though)
 
 2) Despite the interactive tooltip, there is no information menu that displays all of the controls of the program at once
